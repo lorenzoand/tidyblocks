@@ -13,6 +13,7 @@ const MESSAGES = {
   seed: {
     message0: {
       // TRANSLATE ar
+      el: 'RNG σπόρος γεννήτριας %1',
       en: 'RNG seed %1',
       // TRANSLATE es
       it: 'Effetti casuali %1',
@@ -21,6 +22,7 @@ const MESSAGES = {
     },
     tooltip: {
       ar: 'إعادة تشغيل مولد الأرقام العشوائية',
+      el: 'Επανεκκίνηση αρχικοποίησης γεννήτριας τυχαίων αριθμών',
       en: 'Restart random number generation',
       // TRANSLATE es
       it: 'Riavviare la generazione di numeri casuali',

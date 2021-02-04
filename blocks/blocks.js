@@ -43,7 +43,13 @@ const MESSAGES = {
     pt: 'combinar'
   },
   control: {
+    // TRANSLATE ar
+    el: 'ρύθμιση',
     en: 'control'
+    // TRANSLATE es
+    // TRANSLATE it
+    // TRANSLATE ko
+    // TRANSLATE pt
   },
   data: {
     ar: 'بيانات',
@@ -114,6 +120,7 @@ const createXmlConfig = (language) => {
       <block type="data_penguins"></block>
       <block type="data_phish"></block>
       <block type="data_sequence"></block>
+      <block type="data_spotify"></block>
       <block type="data_user"></block>
     </category>
     <category name="${msg.get('transform')}" colour="${TRANSFORM_COLOR}">
